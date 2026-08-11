@@ -351,8 +351,3 @@ p {
     overflow: visible;
 }
 
-#screen7 {
-    max-height: 90vh;
-    overflow-y: auto;
-}  
-
