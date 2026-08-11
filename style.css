@@ -1,10 +1,10 @@
 body {
 	margin: 0;
-	height: 100vh;
+    height: 100vh;
 	
 	display: flex;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
 	
 	background: linear-gradient(
 		135deg,
@@ -342,6 +342,13 @@ p {
     font-size: 20px;
     line-height: 1.6;
     font-weight: normal;
+}
+#screen7 {
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-height: none;
+    overflow: visible;
 }
 
 #screen7 {
