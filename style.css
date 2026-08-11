@@ -304,4 +304,6 @@ p {
 .photo4 {
 	width: 25% !important;
 	height: auto;
+	display: block;
+	margin: 20px auto;
 }
