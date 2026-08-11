@@ -1,0 +1,268 @@
+body {
+	margin: 0;
+	height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background: linear-gradient(
+		135deg,
+		#171020,
+		#40203f
+	);
+	
+	color: white;
+	font-family: Arial, sans-serif;
+}
+.card {
+	width: 80%
+	max-width: 400px;
+	
+	padding: 40px 25px;
+	
+	text-align: center;
+	
+	background: rgba(255, 255, 255, 0.1);
+	
+	border-radius: 25px;
+	
+}
+
+h1 {
+	color: #ffd6e8;
+	text-shadow: 0 0 12px rgba(255, 214, 232, 0.4);
+	
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+button {
+	padding: 15px 25px;
+	
+	font-size: 18px;
+	
+	border: none;
+	border-radius: 30px;
+	
+	cursor: pointer;
+	
+}
+
+#screen2 {
+	display: none;
+}
+.memory-photo {
+	width: 100%;
+	max-height: 320px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+#screen3 {
+	display: none;
+}
+.memory-photo {
+	width: 30%
+	border-radius: 30px;
+}
+#screen4 {
+	display: none;
+}
+.memory-photo {
+	width: 30%
+	border-radius: 30px;
+}
+#screen5 {
+	display: none;
+}
+.balloons {
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+}
+.balloons span {
+	position: absolute;
+	bottom: 0;
+	font-size: 45px;
+	
+	animation name: fly;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.balloons span:nth-child(1) {
+	left: 10%
+	animation-delay: 0s;
+}
+.balloons span:nth-child(2) {
+	left: 30%
+	animation-delay: 1s;
+}
+.ballons span:nth-child(3) {
+	left: 50%
+	animation-delay: 2s;
+}
+.balloons span:nth-child(4) {
+	left: 70%
+	animation-delay: 0.5s;
+}
+.balloons span:nth-child(5) {
+	left: 90%
+	animation-delay: 1.5s;
+}
+@keyframes fly {
+	0% {
+		transform: translateY(70px) rotate(0deg);
+		opacity: 0;
+	}
+	
+	20% {
+		opacity: 1;
+	}
+	
+	100% {
+		transform: translateY(-200px) rotate(15deg);
+		opacity: 0;
+	}
+}
+#screen6 {
+	display: none;
+	}
+#screen6 {
+	display: none;
+}
+#screen7 {
+	display: none;
+}
+#screen7 {
+	display: none;
+}
+.final-balloons {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+.final-balloons span {
+    position: absolute;
+    bottom: -60px;
+    font-size: 45px;
+
+    animation: finalFly 5s infinite linear;
+}
+
+.final-balloons span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.final-balloons span:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.final-balloons span:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.final-balloons span:nth-child(4) {
+    left: 70%;
+    animation-delay: 0.5s;
+}
+
+.final-balloons span:nth-child(5) {
+    left: 90%;
+    animation-delay: 1.5s;
+}
+
+@keyframes finalFly {
+
+    0% {
+        transform: translateY(60px) rotate(0deg);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-280px) rotate(15deg);
+        opacity: 0;
+    }
+}
+.confetti span {
+    position: absolute;
+    top: -50px;
+    font-size: 25px;
+    animation: confettiFall 5s linear infinite;
+}
+
+.confetti span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.confetti span:nth-child(2) {
+    left: 25%;
+    animation-delay: 1s;
+}
+
+.confetti span:nth-child(3) {
+    left: 40%;
+    animation-delay: 2s;
+}
+
+.confetti span:nth-child(4) {
+    left: 60%;
+    animation-delay: 0.5s;
+}
+
+.confetti span:nth-child(5) {
+    left: 75%;
+    animation-delay: 1.5s;
+}
+
+.confetti span:nth-child(6) {
+    left: 90%;
+    animation-delay: 2.5s;
+}
+
+@keyframes confettiFall {
+    0% {
+        top: -50px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 110%;
+        transform: rotate(360deg);
+    }
+}
+h1 {
+    color: #ffd6e8;
+    text-shadow: 0 0 12px rgba(255, 214, 232, 0.4);
+}
+
+h2 {
+    color: #ffe49a;
+}
+
+p {
+    color: #f3eaf2;
+}
+
+.highlight {
+    color: #ff9ec4;
+    font-weight: bold;
+}
+
+.gold {
+    color: #ffd978;
+    font-weight: bold;
+}
+	
