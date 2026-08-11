@@ -338,6 +338,10 @@ p {
 
 #screen7 .signature {
     margin-top: 25px;
+#screen7 {
+    max-height: 90vh;
+    overflow-y: auto;
+}
     margin-bottom: 10px;
     font-size: 20px;
     line-height: 1.6;
