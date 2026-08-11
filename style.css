@@ -260,6 +260,13 @@ p {
     color: #ff9ec4;
     font-weight: bold;
 }
+.signature {
+	color: #ffd6e8;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 30px;
+	line-height: 1.6;
+	}
 
 .gold {
     color: #ffd978;
