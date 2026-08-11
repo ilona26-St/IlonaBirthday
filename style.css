@@ -324,7 +324,7 @@ p {
 }
 
 #screen7 h2 {
-    margin: 10px 0 20px;
+    margin: 5px 0;
 }
 
 #screen7 .photo4 {
@@ -332,7 +332,7 @@ p {
     max-width: 400px;
 	height: auto;
     display: block;
-    margin: 25px auto;
+    margin: 10px auto 20px;
     border-radius: 30px;
 }
 
