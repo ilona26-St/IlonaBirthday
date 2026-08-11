@@ -268,6 +268,35 @@ p {
 	line-height: 1.6;
 	}
 
+@media (max-width: 600px) {
+
+    .card {
+        width: 85%;
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 14px 24px;
+    }
+
+    .memory-photo {
+        width: 70%;
+    }
+}
 .gold {
     color: #ffd978;
     font-weight: bold;
