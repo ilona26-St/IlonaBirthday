@@ -330,7 +330,7 @@ p {
 #screen7 .photo4 {
     width: 45% !important;
     max-width: 400px;
-    height: auto;
+	height: auto;
     display: block;
     margin: 25px auto;
     border-radius: 30px;
@@ -338,12 +338,14 @@ p {
 
 #screen7 .signature {
     margin-top: 25px;
-#screen7 {
-    max-height: 90vh;
-    overflow-y: auto;
-}
     margin-bottom: 10px;
     font-size: 20px;
     line-height: 1.6;
     font-weight: normal;
 }
+
+#screen7 {
+    max-height: 90vh;
+    overflow-y: auto;
+}  
+
